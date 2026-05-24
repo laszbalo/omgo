@@ -233,4 +233,8 @@ type HourlyData struct {
 	GeopotentialHeight70hPa   []float64 `json:"geopotential_height_70hPa,omitempty"`
 	GeopotentialHeight50hPa   []float64 `json:"geopotential_height_50hPa,omitempty"`
 	GeopotentialHeight30hPa   []float64 `json:"geopotential_height_30hPa,omitempty"`
+
+	// UV Index
+	UVIndex         []float64 `json:"uv_index,omitempty"`
+	UVIndexClearSky []float64 `json:"uv_index_clear_sky,omitempty"`
 }
