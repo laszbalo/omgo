@@ -217,6 +217,8 @@ const (
 	HourlyGeopotentialHeight70hPa   HourlyMetric = "geopotential_height_70hPa"
 	HourlyGeopotentialHeight50hPa   HourlyMetric = "geopotential_height_50hPa"
 	HourlyGeopotentialHeight30hPa   HourlyMetric = "geopotential_height_30hPa"
+
+	// UVIndex
 	HourlyUVIndex                   HourlyMetric = "uv_index"
 	HourlyUVIndexClearSky           HourlyMetric = "uv_index_clear_sky"
 )
